@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Creative Apple</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #8c8c8c;
+  
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: flex;
+  color: black;
+  text-align: right;
+  padding: 5px 12px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  
+  
+}
+
+ul.topnav li a:hover {background-color: white;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+  </head>
+  <body background="creative2.jpg">
+    
+	<div id="navigation" class="padding">
+		<ul class="topnav" id="myTopnav">
+  
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="service.html">Service</a></li>
+  <li><a href="contact.html">Contact</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   
+  
+ 
+  
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
+	</div>
+	<br>
+	<div class="main1">
+	Dear Fellow Creative Appler, 
+	</div>
+	<div class="content">
+	The word creativity comes from our outer nature, coming here we develop our creative instinct to next level.<br>
+	come join us, and make us grow.<br>
+	
+	<b>"</b>Regardless of how a community is shaped, in every association there are certain state requirements to be<br>
+	performed under statutory guidelines.<br>
+	Fulfilling those requirements is what our professional and experienced C.A. team takes pride in.<br> 
+	By providing the expertise of Women Empowerment Activities, Art Gallery Maintenance, and Creative Solutions<br> 
+	our management services allow us to execute your boards decisions in a professionally and efficiently.<br> 
+	Our mission is to leverage state-of-the-art property management systems to provide dramatically better <br>
+	HOA management systems and condo management services compared to the typical industry standard.<b>"</b>
+	</div><br>
+	
+	<div class="picture">
+	<img src="proj.jpg" height="180" width="300"><br>
+	<div class="p_detail1">Women Empowerment Activities</div><br>
+	<img src="proj1.jpg" height="180" width="300"><br>
+	<div class="p_detail2">Art Gallery Maintenance</div><br>
+	<img src="proj2.jpg" height="180" width="300"><br>
+	<div class="p_detail3">Creative Solution`s</div><br>
+	
+	
+	
+	
+	</div>
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<div class="footer1">
+<footer class="footer">
+  <font class="f_content" color="white"><p>Created By : Suprith.S</p>
+  <p>Contact information: <a href="mailto:suprith.subramanya08@gmail.com">support@gmail.com</a>.</p>
+  <center><p class="play">forum</p><center>
+  </font>
+</footer>
+</div>
+
+
+  </body>
+</html>
