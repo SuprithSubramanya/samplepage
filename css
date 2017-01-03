@@ -1,0 +1,50 @@
+.padding
+{
+font-family: 'Quicksand', sans-serif;
+padding-left: 265px;
+font-weight: bold;
+display:flex;
+}
+.main1
+{
+font-family: 'Poiret One', cursive;
+padding-left:265px;
+font-size: 25px;
+}
+.content
+{
+padding-left:100px;
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+
+}
+.picture
+{
+padding-left: 300px; 
+}
+.p_detail1
+{
+padding-left:28px;
+}
+.p_detail2
+{
+padding-left:58px;
+}
+.p_detail3
+{
+padding-left:78px;
+}
+.footer
+{
+background: purple;
+font-size: 17px;
+}
+.f_content
+{
+padding-left:15px;
+}
+.play
+{
+padding-bottom: 130px;
+}
+
